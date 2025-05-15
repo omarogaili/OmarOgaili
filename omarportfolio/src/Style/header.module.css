@@ -1,0 +1,43 @@
+.Header{
+    background-color: #00000085;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    z-index: 1;
+
+}
+.TitleContainer{
+    align-items: center;
+    gap: 10px;
+    z-index: 1;
+
+}
+.imageContainer img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    z-index: 1;
+
+    
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    z-index: 1;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}

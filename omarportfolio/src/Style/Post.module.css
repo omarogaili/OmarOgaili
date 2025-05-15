@@ -1,0 +1,38 @@
+.bodyContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 2em;
+}
+.postContainer{
+    display: flex;
+    flex-direction:row;
+    align-content: space-between;
+    gap:12em;
+    background-color: #11111141;
+    width: 100%;
+    height: 30em;
+    padding: 1em;
+}
+.postTitle{
+    display: flex;
+    flex-grow: 12;
+    width: 23em;
+    justify-content: start;
+    align-items: center;
+}
+.postDate{
+    display: flex;
+    align-items: end;
+    width: 10em;
+    height: 12em;
+    color: #6b6b6b;
+    transform: translateY(16em);
+}
+.PostImage{
+    width: 400px;
+    height: 400px;
+    transform: translateX(10em);
+}
